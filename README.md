@@ -1,7 +1,8 @@
-![Datax-logo](https://github.com/alibaba/DataX/blob/master/images/DataX-logo.jpg)
+
+【读】插件dwmetareader：实现了读取从dataworks开放接口openapi读取dataworks元数据
 
 
-# DataX
+# DataX相关介绍如下：
 
 DataX 是阿里巴巴集团内被广泛使用的离线数据同步工具/平台，实现包括 MySQL、Oracle、SqlServer、Postgre、HDFS、Hive、ADS、HBase、TableStore(OTS)、MaxCompute(ODPS)、DRDS 等各种异构数据源之间高效的数据同步功能。
 
