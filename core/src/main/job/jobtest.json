@@ -1,0 +1,41 @@
+{
+  "job": {
+    "setting": {
+      "speed": {
+        "channel": 3
+      },
+      "errorLimit": {
+        "record": 0,
+        "percentage": 0.02
+      }
+    },
+    "content": [
+      {
+        "reader": {
+          "name": "dwmetareader",
+          "parameter": {
+            "regionid": "cn-shenzhen",
+            "accessKeyId": "LTAI4G2HMD9oLtRNcqnjcmDg",
+            "accessSecret":"bDDcQnKRw5uovf44XWYquV6X9G5wEL",
+            "product": "dataworks-public",
+            "endpoint": "dataworks.cn-shenzhen.aliyuncs.com",
+            "appguids": "odps.dw_meta"
+          }
+        },
+        "writer": {
+          "name": "odpswriter",
+          "parameter": {
+            "project": "dw_meta",
+            "table": "s_dwmeta_log_di",
+            "partition":"ds=20210204",
+            "column": ["type","record"],
+            "accessId": "LTAI4G2HMD9oLtRNcqnjcmDg",
+            "accessKey": "bDDcQnKRw5uovf44XWYquV6X9G5wEL",
+            "truncate": true,
+            "odpsServer": "dataworks.cn-shenzhen.aliyuncs.com"
+          }
+        }
+      }
+    ]
+  }
+}

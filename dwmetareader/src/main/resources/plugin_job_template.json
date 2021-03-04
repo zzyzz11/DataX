@@ -1,0 +1,11 @@
+{
+  "name": "dwmetareader",
+  "parameter": {
+    "regionid": "",
+    "accessKeyId": "",
+    "accessSecret":"",
+    "product": "",
+    "endpoint": "",
+    "appguids": ""
+  }
+}
