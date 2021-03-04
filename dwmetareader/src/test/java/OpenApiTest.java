@@ -82,7 +82,7 @@ public class OpenApiTest {
 
 
     public static void main(String[] args){
-        IClientProfile profile = DefaultProfile.getProfile("cn-shenzhen", "LTAI4G2HMD9oLtRNcqnjcmDg", "bDDcQnKRw5uovf44XWYquV6X9G5wEL");
+        IClientProfile profile = DefaultProfile.getProfile("cn-shenzhen", "xxx", "XXX");
         DefaultProfile.addEndpoint("cn-shenzhen","dataworks-public", "dataworks.cn-shenzhen.aliyuncs.com");
         IAcsClient client = new DefaultAcsClient(profile);
 
